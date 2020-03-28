@@ -12,3 +12,4 @@ implementation of common algorithm and data structure in python
   - [stack](https://github.com/coci/algo/blob/master/ds/6-stack.py)
   - [linked list](https://github.com/coci/algo/blob/master/ds/7-linked_list.py)
   - [queue](https://github.com/coci/algo/blob/master/ds/8-queue.py)
+  - [deque](https://github.com/coci/algo/blob/master/ds/9-deque.py)
