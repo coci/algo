@@ -14,18 +14,18 @@ def reverse_int_without_string(number):
 	"""
 	reverse without change number into string
 	"""
-    digits_number = [] # split number by their digits
-    while number > 0 :
-        digits_number.append(number%10)
-        number = number // 10
+	digits_number = [] # split number by their digits
+	while number > 0 :
+		digits_number.append(number%10)
+		number = number // 10
 
-    number = [] 
-    for i in digits_number :
-        for j in range(len(digits_number[digits_number.index(i):])-1):
-            i *= 10
-        number.append(i)
+	number = [] 
+	for i in digits_number :
+		for j in range(len(digits_number[digits_number.index(i):])-1):
+			i *= 10
+		number.append(i)
 
-    return -(sum(number))
+	return -(sum(number))
 
 
 
