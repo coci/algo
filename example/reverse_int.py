@@ -19,6 +19,7 @@ def reverse_int_without_string(number):
 		digits_number.append(number%10)
 		number = number // 10
 
+	# multiple number with her index with 10 = > 123 => 1*100 + 2* 10 + 3 * 1
 	number = [] 
 	for i in digits_number :
 		for j in range(len(digits_number[digits_number.index(i):])-1):
