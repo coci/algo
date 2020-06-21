@@ -31,3 +31,4 @@ def palindrome_comparison(string):
                 state = False
             index += 1
     return state
+
